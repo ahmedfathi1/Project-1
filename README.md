@@ -15,35 +15,39 @@ For this dataset, there were 8523 rows and 12 columns
 
 ## Explanatory Data Analysis
 
-### ![image.png]
+
+![Bar viz](https://user-images.githubusercontent.com/115515293/202751002-4d31031a-2272-4c5d-ae7c-b6c4ceead2b4.png)
 
 
-#### Visual 1 Title
-![sample image](project1_sample_image.png)
+> Using a histogram to look at the number of products based on their Item group. We can see that a large majority of goods are grouped in fruits and vegetables and snack foods.
 
-> Sentence about visualization.
+![Hist viz](https://user-images.githubusercontent.com/115515293/202751167-e79fc263-3ae5-4581-b02c-772b8be18b70.png)
 
-#### Visual 2 Title
+
+> Box plot used to look at the statistics of item sales based on the type of store. From this graph we can see that supermarket Type3 have the most amount of sales.
+
 
 ## Model
 
-Describe your final model
+There were two models used for evaluation (Linear Regression and Regression Tree). The final model used was a Regression Tree Model which was tuned to a max_depth of 5.
 
-Report the most important metrics
+Results for training data: 
+ MSE 1171332.784431318,
+ RMSE: 1082.281287111312,
+ R^2: 0.6042066848171654 
+ 
+Results for Test data: 
+ MSE 1114615.8633462703,
+ RMSE: 1055.7536944506849,
+ R^2: 0.5960039728227073
 
-Refer to the metrics to describe how well the model would solve the business problem
-
-## Recommendations:
-
-More of your own text here
+The training set had about 60% variance in y and the testing had about 59% variance in y.
 
 
-## Limitations & Next Steps
-
-More of your own text here
+## Recommendations: I would recommend implementing the Regression Tree Model as it fits both the training and testing sets pretty well in comparrison to the linear regression model used in the code.
 
 
 ### For further information
 
 
-For any additional questions, please contact **email**
+For any additional questions, please contact **a.fathi111@gmail.com**
