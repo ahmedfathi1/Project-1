@@ -1,9 +1,9 @@
-# Sales Repository insights
-## We are looking at the Item sales of different goods and how well different store types perform in selling goods. 
+# Sales Repository prediction insights
+## We are looking at the Item sales of different goods and how well different store types perform in selling goods in hopes to predict future sales of goods. 
 
 **Author**: Ahmed Fathi
 
-### Business problem: We want to know how well the item sales are.
+### Business problem: We want to know how well the item sales are in order to predict.
 
 
 ### Data: https://docs.google.com/spreadsheets/d/e/2PACX-1vT7T4OEvxCrrx8SNk2CNc9yyApd4S8_rhhT2p2zqCeptIaPmGiSlh-bKDDYQ6beipefWAOvzlb_glAe/pub?output=csv
