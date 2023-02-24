@@ -51,11 +51,11 @@ The training set had about 60% variance in y and the testing had about 59% varia
 # Focussing on Importances and Coefficients and seeing how they differ between LinearRegression and RandomForest
 
 ## LinearRegression Model
-(LinearRegression_Plot.png)
+(https://github.com/ahmedfathi1/Sales-Repository/blob/main/LinearRegression_Plot.png)
 The top 3 Coefficients that the LinearRegression model shows to be impactful are Outlet_Type_Supermarket_type_3, Outlet_Establishment_year_1999, and Outlet_Type_Supermarket_type_1 based on the fact that they are the 3 that have the highest impact on Item_Outlet_Sales based on the graphic.
 
 ## RandomForest Model
-(RandomForest_Plot.png)
+(https://github.com/ahmedfathi1/Sales-Repository/blob/main/RandomForest_Plot.png)
 Based on our RandomForest model, the top 5 features are:
 - Item_MRP
 - Outlet_Type_Grocery Store
