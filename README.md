@@ -70,7 +70,7 @@ Based on our RandomForest model, the top 5 features are:
 ## Summary Plot (Bar Version)
 ![Bar version](Summary plot (bar version).png)
 ![RandomForest Viz](RandomForest_Plot.png)
-Looking at SHAP and my original Feature Importances, we can see that they both have the same features listed at the top, however they differ in the way they scale how impactful they are to the target.
+Looking at SHAP and my original Feature Importance from before, we can see that they both have the same features listed at the top, however they differ in the way they scale how impactful they are to the target.
 
 ## Summary Plot (Dotted Version)
 ![Dotted](Summary plot (default version).png)
@@ -81,6 +81,21 @@ Looking at SHAP and my original Feature Importances, we can see that they both h
 
 
 # Local Explanations With LIME and Force Plots
+
+## Heaviest Item Weight Observations
+![Heaviest LIME](Heaviest LIME.png)
+For this item, we can see that the top features associated with it are all negatively influence high item sales (outlet type grocery store, item MRP, etc.)
+
+![Heaviest Force](Heaviest item weight force plot.png)
+Here we can see that Outlet type grocery store and item mrp had the most influence in the predictions
+
+## Lightest Item Weight Observations
+![Lightest LIME](Lightest LIME.png)
+According to LIME, the features most influencing for high item sales are Outlet type grocery store, item mrp and outlet type supermarket type3
+
+![Lightest Force](Lightest item weight force plot.png)
+In the force plot, we can see that outlet establishment outlet type and item mrp had an influence on the predictions.
+
 
 
 
