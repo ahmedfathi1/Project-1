@@ -65,6 +65,25 @@ Based on our RandomForest model, the top 5 features are:
 
 
 
+# Global Explanations with SHAP
+
+## Summary Plot (Bar Version)
+![Bar version](Summary plot (bar version).png)
+![RandomForest Viz](RandomForest_Plot.png)
+Looking at SHAP and my original Feature Importances, we can see that they both have the same features listed at the top, however they differ in the way they scale how impactful they are to the target.
+
+## Summary Plot (Dotted Version)
+![Dotted](Summary plot (default version).png)
+- Item MRP: based on the plot, there is equal distribution of the dots
+- Outlet type Grocery Store: Since the red dots are on the left side, it is fair to assume that outlet type grocery stores are less likely to have positive sales
+- Outlet Type Supermarket type 3 : As this shows the red dots on the right side of 0, we can assume that outlet type supermarket - type 3 will have positive sales
+
+
+
+# Local Explanations With LIME and Force Plots
+
+
+
 ### For further information
 
 
